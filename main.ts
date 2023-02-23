@@ -6,7 +6,7 @@ input.onButtonPressed(Button.A, function () {
 let steps = 0
 steps = 0
 basic.forever(function () {
-    if (input.acceleration(Dimension.X) > 800) {
+    if (input.acceleration(Dimension.X) > 1500) {
         steps += 1
     }
 })
